@@ -2,7 +2,7 @@ from fabric import task
 from invoke import Responder
 from _credentials import github_username, github_password
  
- 
+
 def _get_github_auth_responders():
     """
     返回 GitHub 用户名密码自动填充器
