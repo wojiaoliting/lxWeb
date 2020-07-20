@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+fabric = {index = "https://pypi.douban.com/simple", version = "*"}
+
+[packages]
+django = {index = "https://pypi.douban.com/simple", version = "==2.2.14"}
+djangorestframework = {version = "*", index = "https://pypi.douban.com/simple"}
+djangorestframework-simplejwt = {index = "https://pypi.douban.com/simple", version = "*"}
+django-filters = {version = "*", index = "https://pypi.douban.com/simple"}
+django-filter = {version = "==2.3.0", index = "https://pypi.douban.com/simple"}
+coreapi = {index = "https://pypi.douban.com/simple", version = "*"}
+pillow = {version = "*", index = "https://pypi.douban.com/simple"}
+coreschema = {version = "*", index = "https://pypi.douban.com/simple"}
+django-cors-headers = {index = "https://pypi.douban.com/simple", version = "*"}
+
+[requires]
+python_version = "3.5"
