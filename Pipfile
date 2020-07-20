@@ -16,6 +16,6 @@ coreapi = {index = "https://pypi.douban.com/simple", version = "*"}
 pillow = {version = "*", index = "https://pypi.douban.com/simple"}
 coreschema = {version = "*", index = "https://pypi.douban.com/simple"}
 django-cors-headers = {index = "https://pypi.douban.com/simple", version = "*"}
-
+gunicorn = {version = "*", index = "https://pypi.douban.com/simple"}
 [requires]
 python_version = "3.5"
