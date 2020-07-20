@@ -20,7 +20,7 @@ def _get_github_auth_responders():
  
 @task()
 def deploy(c):
-    supervisor_conf_path = '~/etc/'
+    supervisor_conf_path = '~/apps/'
     supervisor_program_name = 'lxWeb'
  
     project_root_path = '~/apps/lxWeb/'
